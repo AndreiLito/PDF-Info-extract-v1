@@ -1,0 +1,45 @@
+﻿{
+  "query": {
+    "ticker": "NO/YAR NO",
+    "date": "20260511",
+    "broker": "ABG Sundal Collier"
+  },
+  "header": {
+    "ticker": "NO/YAR NO",
+    "broker": "ABG Sundal Collier",
+    "date": "11 May 2026",
+    "filename": "20260511_ABG Sundal Collier_e2979ea51283d23533df11b8f4493657.pdf",
+    "company": "",
+    "analyst": "Analyst(s):",
+    "report_type": "note",
+    "title_line": "Research note",
+    "pdf_uri": "file:///C:/Users/Andrey/Downloads/candidate_extracted/corpus/20260511_ABG%20Sundal%20Collier_e2979ea51283d23533df11b8f4493657.pdf#page=1"
+  },
+  "extracted": {
+    "rating_change": "",
+    "target_price": "",
+    "revisions": [],
+    "estimate_picture": {
+      "broker_eps": [],
+      "consensus_eps": [],
+      "rows": []
+    },
+    "key_passages": []
+  },
+  "citations": [
+    {
+      "id": "c1",
+      "label": "Report cover",
+      "page": 1,
+      "snippet": ", ABGSC Fast comment HOLD Chemicals YAR-NO/YAR NO Share price (NOK) 8/5/2026 528.00 Target price 575.00 MCap (NOKm) 134,495 MCap (EURm) 12,396 No. of shares (m)",
+      "uri": "file:///C:/Users/Andrey/find-rpt/.find-rpt/highlights/20260511_ABG%20Sundal%20Collier_e2979ea51283d23533df11b8f4493657_p1_c1.pdf#page=1",
+      "highlighted_pdf": "C:\\Users\\Andrey\\find-rpt\\.find-rpt\\highlights\\20260511_ABG Sundal Collier_e2979ea51283d23533df11b8f4493657_p1_c1.pdf",
+      "markdown": "[Report cover](file:///C:/Users/Andrey/find-rpt/.find-rpt/highlights/20260511_ABG%20Sundal%20Collier_e2979ea51283d23533df11b8f4493657_p1_c1.pdf#page=1)"
+    }
+  ],
+  "ambiguity": {
+    "revisions_without_clear_rationale": false,
+    "should_offer_email_draft": false
+  },
+  "brief_instructions": "Compose the /find-rpt brief from this JSON. Use citations inline. Follow the output template in the skill. If ambiguity.should_offer_email_draft is true, include a draft email to the analyst (never send)."
+}

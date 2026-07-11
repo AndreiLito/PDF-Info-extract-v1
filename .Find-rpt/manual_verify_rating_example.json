@@ -1,0 +1,23 @@
+{
+  "check": "3. RATING - we claim no Buy/Hold/Sell/Neutral-style word on first 3 pages",
+  "file": "20260511_Citi_3172ae832ca228ab1b355e1b5310d499.pdf",
+  "full_path": "C:\\Users\\Andrey\\Downloads\\candidate_extracted\\corpus\\20260511_Citi_3172ae832ca228ab1b355e1b5310d499.pdf",
+  "broker": "Citi",
+  "head_preview_lines": [
+    "See Appendix A-1 for Analyst Certification, Important Disclosures and Research Analyst Affiliations",
+    "Action |",
+    "11 May 2026 08:04:51 ET │ 11 pages",
+    "Aéroports de Paris (ADP.PA)",
+    "Expect EBITDA to be under pressure in FY26",
+    "CITI’S TAKE",
+    "We reinstate our earnings estimates for ADP, which remains Rating",
+    "Suspended. We expect traffic growth to remain subdued at 2.3% in FY26",
+    "at Paris Airports, broadly in-line with company outlook. Traffic at",
+    "International assets like TAV and Amman airports is likely to be pressured",
+    "by ongoing geopolitical concerns and could take months to recover.",
+    "Management has indicated that Extime SPP will be down YoY reflecting",
+    "the challenging retail environment, driven by global slowdown in luxury",
+    "demand, unfavorable FX effect (euro appreciation) and traffic-mix impact",
+    "(lower pax from Middle East partially offset by higher traffic from long"
+  ]
+}

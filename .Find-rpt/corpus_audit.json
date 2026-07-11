@@ -1,0 +1,417 @@
+{
+  "total_indexed": 172,
+  "by_broker": {
+    "Kepler Cheuvreux": {
+      "n": 8,
+      "full": 4,
+      "partial": 0,
+      "failed": 4,
+      "with_revs": 4,
+      "with_passages": 4,
+      "with_company": 1,
+      "with_email": 2,
+      "with_tp": 3
+    },
+    "ABG Sundal Collier": {
+      "n": 7,
+      "full": 7,
+      "partial": 0,
+      "failed": 0,
+      "with_revs": 0,
+      "with_passages": 7,
+      "with_company": 0,
+      "with_email": 7,
+      "with_tp": 7
+    },
+    "Alantra Equities Sociedad de Valores, S.A.": {
+      "n": 7,
+      "full": 0,
+      "partial": 3,
+      "failed": 4,
+      "with_revs": 0,
+      "with_passages": 3,
+      "with_company": 0,
+      "with_email": 6,
+      "with_tp": 0
+    },
+    "Berenberg": {
+      "n": 7,
+      "full": 7,
+      "partial": 0,
+      "failed": 0,
+      "with_revs": 0,
+      "with_passages": 7,
+      "with_company": 0,
+      "with_email": 0,
+      "with_tp": 7
+    },
+    "BNP Paribas": {
+      "n": 7,
+      "full": 7,
+      "partial": 0,
+      "failed": 0,
+      "with_revs": 0,
+      "with_passages": 7,
+      "with_company": 1,
+      "with_email": 7,
+      "with_tp": 7
+    },
+    "BofA Global Research": {
+      "n": 7,
+      "full": 1,
+      "partial": 5,
+      "failed": 1,
+      "with_revs": 0,
+      "with_passages": 6,
+      "with_company": 1,
+      "with_email": 4,
+      "with_tp": 0
+    },
+    "CIC Corporate & Institutional Banking": {
+      "n": 7,
+      "full": 1,
+      "partial": 3,
+      "failed": 3,
+      "with_revs": 0,
+      "with_passages": 2,
+      "with_company": 0,
+      "with_email": 6,
+      "with_tp": 3
+    },
+    "Citi": {
+      "n": 7,
+      "full": 3,
+      "partial": 4,
+      "failed": 0,
+      "with_revs": 0,
+      "with_passages": 7,
+      "with_company": 0,
+      "with_email": 7,
+      "with_tp": 3
+    },
+    "Danske Bank Research": {
+      "n": 7,
+      "full": 1,
+      "partial": 6,
+      "failed": 0,
+      "with_revs": 0,
+      "with_passages": 7,
+      "with_company": 0,
+      "with_email": 7,
+      "with_tp": 1
+    },
+    "Deutsche Bank Research": {
+      "n": 7,
+      "full": 7,
+      "partial": 0,
+      "failed": 0,
+      "with_revs": 0,
+      "with_passages": 7,
+      "with_company": 7,
+      "with_email": 0,
+      "with_tp": 7
+    },
+    "DNB Carnegie": {
+      "n": 7,
+      "full": 7,
+      "partial": 0,
+      "failed": 0,
+      "with_revs": 7,
+      "with_passages": 7,
+      "with_company": 7,
+      "with_email": 7,
+      "with_tp": 7
+    },
+    "Goldman Sachs": {
+      "n": 7,
+      "full": 0,
+      "partial": 1,
+      "failed": 6,
+      "with_revs": 0,
+      "with_passages": 1,
+      "with_company": 0,
+      "with_email": 7,
+      "with_tp": 0
+    },
+    "Jefferies": {
+      "n": 7,
+      "full": 2,
+      "partial": 5,
+      "failed": 0,
+      "with_revs": 0,
+      "with_passages": 7,
+      "with_company": 1,
+      "with_email": 7,
+      "with_tp": 1
+    },
+    "JP Morgan": {
+      "n": 7,
+      "full": 0,
+      "partial": 7,
+      "failed": 0,
+      "with_revs": 0,
+      "with_passages": 7,
+      "with_company": 0,
+      "with_email": 7,
+      "with_tp": 0
+    },
+    "Morgan Stanley": {
+      "n": 7,
+      "full": 2,
+      "partial": 4,
+      "failed": 1,
+      "with_revs": 0,
+      "with_passages": 4,
+      "with_company": 1,
+      "with_email": 7,
+      "with_tp": 3
+    },
+    "Nordea Equity Research": {
+      "n": 7,
+      "full": 3,
+      "partial": 3,
+      "failed": 1,
+      "with_revs": 0,
+      "with_passages": 6,
+      "with_company": 0,
+      "with_email": 7,
+      "with_tp": 3
+    },
+    "Pareto Securities": {
+      "n": 7,
+      "full": 0,
+      "partial": 5,
+      "failed": 2,
+      "with_revs": 0,
+      "with_passages": 2,
+      "with_company": 1,
+      "with_email": 4,
+      "with_tp": 3
+    },
+    "Rothschild & Co Redburn": {
+      "n": 7,
+      "full": 3,
+      "partial": 4,
+      "failed": 0,
+      "with_revs": 0,
+      "with_passages": 3,
+      "with_company": 7,
+      "with_email": 7,
+      "with_tp": 7
+    },
+    "Stifel Nicolaus": {
+      "n": 7,
+      "full": 6,
+      "partial": 1,
+      "failed": 0,
+      "with_revs": 0,
+      "with_passages": 7,
+      "with_company": 6,
+      "with_email": 7,
+      "with_tp": 0
+    },
+    "UBS": {
+      "n": 7,
+      "full": 2,
+      "partial": 5,
+      "failed": 0,
+      "with_revs": 0,
+      "with_passages": 7,
+      "with_company": 0,
+      "with_email": 3,
+      "with_tp": 2
+    },
+    "Zurcher Kantonalbank": {
+      "n": 7,
+      "full": 0,
+      "partial": 3,
+      "failed": 4,
+      "with_revs": 0,
+      "with_passages": 3,
+      "with_company": 0,
+      "with_email": 0,
+      "with_tp": 0
+    },
+    "Oddo BHF Corporates & Markets": {
+      "n": 7,
+      "full": 1,
+      "partial": 2,
+      "failed": 4,
+      "with_revs": 0,
+      "with_passages": 3,
+      "with_company": 1,
+      "with_email": 3,
+      "with_tp": 1
+    },
+    "KBC Securities": {
+      "n": 4,
+      "full": 0,
+      "partial": 3,
+      "failed": 1,
+      "with_revs": 0,
+      "with_passages": 3,
+      "with_company": 3,
+      "with_email": 4,
+      "with_tp": 0
+    },
+    "Panmure Liberum": {
+      "n": 4,
+      "full": 3,
+      "partial": 0,
+      "failed": 1,
+      "with_revs": 0,
+      "with_passages": 3,
+      "with_company": 1,
+      "with_email": 4,
+      "with_tp": 2
+    },
+    "Bestinver Securities": {
+      "n": 2,
+      "full": 0,
+      "partial": 2,
+      "failed": 0,
+      "with_revs": 0,
+      "with_passages": 2,
+      "with_company": 0,
+      "with_email": 1,
+      "with_tp": 0
+    },
+    "Degroof Petercam": {
+      "n": 2,
+      "full": 0,
+      "partial": 2,
+      "failed": 0,
+      "with_revs": 0,
+      "with_passages": 0,
+      "with_company": 1,
+      "with_email": 2,
+      "with_tp": 2
+    },
+    "ING Wholesale Banking": {
+      "n": 2,
+      "full": 1,
+      "partial": 1,
+      "failed": 0,
+      "with_revs": 0,
+      "with_passages": 2,
+      "with_company": 0,
+      "with_email": 2,
+      "with_tp": 1
+    },
+    "Intermonte Securities": {
+      "n": 2,
+      "full": 0,
+      "partial": 1,
+      "failed": 1,
+      "with_revs": 0,
+      "with_passages": 1,
+      "with_company": 0,
+      "with_email": 2,
+      "with_tp": 0
+    },
+    "Danske Bank Commissioned Research": {
+      "n": 1,
+      "full": 0,
+      "partial": 1,
+      "failed": 0,
+      "with_revs": 0,
+      "with_passages": 1,
+      "with_company": 0,
+      "with_email": 0,
+      "with_tp": 0
+    }
+  },
+  "failed_count": 33,
+  "sample_failures": [
+    {
+      "file": "20260511_Alantra Equities Sociedad de Valores, S.A._0271a08f5577f1f6593c073d08de6d0a.pdf",
+      "broker": "Alantra Equities Sociedad de Valores, S.A.",
+      "extractor": "generic_fallback",
+      "status": "failed"
+    },
+    {
+      "file": "20260511_Alantra Equities Sociedad de Valores, S.A._2df4893adbb6197049bacc7197543371.pdf",
+      "broker": "Alantra Equities Sociedad de Valores, S.A.",
+      "extractor": "generic_fallback",
+      "status": "failed"
+    },
+    {
+      "file": "20260511_Alantra Equities Sociedad de Valores, S.A._b5d877e8968cf074942d73e9d8a0dba7.pdf",
+      "broker": "Alantra Equities Sociedad de Valores, S.A.",
+      "extractor": "generic_fallback",
+      "status": "failed"
+    },
+    {
+      "file": "20260511_BofA Global Research_3c3aa9647a4ef245d0fe7c07e4b8cfe7.pdf",
+      "broker": "BofA Global Research",
+      "extractor": "generic_fallback",
+      "status": "failed"
+    },
+    {
+      "file": "20260511_CIC Corporate & Institutional Banking_814eaef5ac2894387954baa96256e37f.pdf",
+      "broker": "CIC Corporate & Institutional Banking",
+      "extractor": "generic_fallback",
+      "status": "failed"
+    },
+    {
+      "file": "20260511_Goldman Sachs_056e83f8b6ec877143bb64acd780409e.pdf",
+      "broker": "Goldman Sachs",
+      "extractor": "generic_fallback",
+      "status": "failed"
+    },
+    {
+      "file": "20260511_Goldman Sachs_1062ef5f479d533cca5c66f639c390ac.pdf",
+      "broker": "Goldman Sachs",
+      "extractor": "generic_fallback",
+      "status": "failed"
+    },
+    {
+      "file": "20260511_Goldman Sachs_182d88495464b6e4beefde4a56c64c4c.pdf",
+      "broker": "Goldman Sachs",
+      "extractor": "generic_fallback",
+      "status": "failed"
+    },
+    {
+      "file": "20260511_Goldman Sachs_22c2be86a4f516ae50654a5b94786260.pdf",
+      "broker": "Goldman Sachs",
+      "extractor": "generic_fallback",
+      "status": "failed"
+    },
+    {
+      "file": "20260511_Goldman Sachs_36bb26783a24edc56366e6e7c246684f.pdf",
+      "broker": "Goldman Sachs",
+      "extractor": "generic_fallback",
+      "status": "failed"
+    },
+    {
+      "file": "20260511_Goldman Sachs_64004a3f1fbb2ccc09450f49bbdde773.pdf",
+      "broker": "Goldman Sachs",
+      "extractor": "generic_fallback",
+      "status": "failed"
+    },
+    {
+      "file": "20260511_Intermonte Securities_89370c90d3676fad2c1ae665e4dcf57f.pdf",
+      "broker": "Intermonte Securities",
+      "extractor": "generic_fallback",
+      "status": "failed"
+    },
+    {
+      "file": "20260511_KBC Securities_983612ba9e74731e074484836c14e498.pdf",
+      "broker": "KBC Securities",
+      "extractor": "generic_fallback",
+      "status": "failed"
+    },
+    {
+      "file": "20260511_Kepler Cheuvreux_0ead4767508a7f46d0c2205aa57f0d53.pdf",
+      "broker": "Kepler Cheuvreux",
+      "extractor": "kepler_cheuvreux",
+      "status": "failed"
+    },
+    {
+      "file": "20260511_Kepler Cheuvreux_249528df3cb81747bfb008d893461469.pdf",
+      "broker": "Kepler Cheuvreux",
+      "extractor": "kepler_cheuvreux",
+      "status": "failed"
+    }
+  ]
+}
