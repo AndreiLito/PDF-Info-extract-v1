@@ -1,0 +1,195 @@
+Transcript: 
+
+# VIG AV Oddo brief
+
+## User
+
+/find-rpt
+
+Use the find-rpt skill. Repo: https://github.com/AndreiLito/PDF-Info-extract-v1 Write the full research brief for the attached files Follow the skill template. Cite the PDF. Do not invent numbers. Draft analyst email only if the skill says to — never send.
+
+c:\Users\Andrey\Downloads\candidate_extracted\corpus\20260528_Oddo BHF Corporates & Markets_0704de1259c4cfde1ea35513f63b284d.pdf
+
+## Assistant
+
+I'll follow the find-rpt skill and produce the research brief from the attached PDF.
+
+### Tool Get Mcp Tools
+
+```
+{"server":"cursor-app-control","toolName":"move_agent_to_root","toolCallId":"call-6fe36f82-b4bb-4643-9772-8f00bd5e7502-1\nfc_34c7ed85-d688-9c5b-8003-b4d5d03aa2fe_1"}
+```
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Andrey\\.claude\\skills\\find-rpt\\SKILL.md"}
+```
+
+## Assistant
+
+Cloning the find-rpt repo and wiring it to the attached PDF corpus.
+
+### Tool Mcp
+
+```
+{"name":"cursor-app-control-move_agent_to_root","args":{"rootPath":"C:\\Users\\Andrey\\Downloads\\PDF-Info-extract-v1"},"toolCallId":"call-b8d60d1d-5e86-4332-b23a-87a338dd4488-2\nfc_e1bd34f1-dfce-94e7-ae2b-30536da0eda9_0","providerIdentifier":"cursor-app-control","toolName":"move_agent_to_root","smartModeApprovalOnly":false,"skipApproval":true,"serverIdentifier":"cursor-app-control"}
+```
+
+### Tool Run Terminal Command V2
+
+```
+{"command":"git clone https://github.com/AndreiLito/PDF-Info-extract-v1 \"C:\\Users\\Andrey\\Downloads\\PDF-Info-extract-v1\"","workingDirectory":"","timeout":30000,"toolCallId":"call-95a09b32-17cf-4455-ad00-714bec2cb21f-3\nfc_f8fc9345-837f-9281-a1d8-ca3a10e99a1c_0","simpleCommands":["git"],"hasInputRedirect":false,"hasOutputRedirect":false,"parsingResult":{"parsingFailed":false,"executableCommands":[{"name":"git","args":[{"type":"word","value":"clone"},{"type":"word","value":"https://github.com/AndreiLito/PDF-Info-extract-v1"},{"type":"string","value":"\"C:\\Users\\Andrey\\Downloads\\PDF-Info-extract-v1\""}],"fullText":"git clone https://github.com/AndreiLito/PDF-Info-extract-v1 \"C:\\Users\\Andrey\\Downloads\\PDF-Info-extract-v1\""}],"hasRedirects":false,"hasCommandSubstitution":false,"redirects":[]},"requestedSandboxPolicy":{"type":"TYPE_INSECURE_NONE","additionalReadwritePaths":[],"additionalReadonlyPaths":[],"enableSharedBuildCache":true},"fileOutputThresholdBytes":"40000","isBackground":false,"skipApproval":true,"timeoutBehavior":"TIMEOUT_BEHAVIOR_BACKGROUND","hardTimeout":86400000,"description":"Clone find-rpt GitHub repository","closeStdin":false,"conversationId":"934601fa-ae05-46b7-ac02-00c4c38035d8"}
+```
+
+### Tool Mcp
+
+```
+{"name":"cursor-app-control-move_agent_to_root","args":{"rootPath":"C:\\Users\\Andrey\\Downloads\\PDF-Info-extract-v1"},"toolCallId":"call-45c6ea78-5fd1-43b3-b40c-0b6afeb18d50-4\nfc_9022641f-6ad5-9ec6-988a-3c8ec1e39b47_0","providerIdentifier":"cursor-app-control","toolName":"move_agent_to_root","smartModeApprovalOnly":false,"skipApproval":true,"serverIdentifier":"cursor-app-control"}
+```
+
+### Tool Run Terminal Command V2
+
+### Tool Read File V2
+
+```
+{}
+```
+
+### Tool Glob File Search
+
+```
+{"targetDirectory":"C:\\Users\\Andrey\\Downloads\\PDF-Info-extract-v1","globPattern":"**/find_rpt.py"}
+```
+
+## Assistant
+
+Inspecting the repo layout, then retrying setup with approval.
+
+### Tool Run Terminal Command V2
+
+### Tool Run Terminal Command V2
+
+### Tool Run Terminal Command V2
+
+### Tool Await
+
+```
+{"taskId":"4788","blockUntilMs":5000}
+```
+
+### Tool Run Terminal Command V2
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Andrey\\.cursor\\projects\\c-Users-Andrey-Downloads-PDF-Info-extract-v1\\terminals\\4788.txt"}
+```
+
+## Assistant
+
+Index built. Next I'll identify the ticker from the PDF and run the extractor.
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Andrey\\Downloads\\PDF-Info-extract-v1\\Scripts\\find_rpt.py","limit":100}
+```
+
+### Tool Glob File Search
+
+```
+{"targetDirectory":"C:\\Users\\Andrey\\Downloads\\PDF-Info-extract-v1\\config","globPattern":"**/*"}
+```
+
+### Tool Run Terminal Command V2
+
+### Tool Run Terminal Command V2
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Andrey\\Downloads\\PDF-Info-extract-v1\\config\\README.md"}
+```
+
+### Tool Ripgrep Raw Search
+
+```
+{"pattern":"corpus_path|FIND_RPT_CORPUS|default\\.yaml","path":"C:\\Users\\Andrey\\Downloads\\PDF-Info-extract-v1\\Scripts","caseInsensitive":false,"multiline":false,"toolCallId":"call-2a1e3533-c436-464e-9851-147cb1e4776c-19\nfc_b72fe548-109f-9004-8f6d-75a48840468d_2","offset":0}
+```
+
+### Tool Run Terminal Command V2
+
+## Assistant
+
+Ticker is `VIG AV`. Running the extractor now.
+
+### Tool Run Terminal Command V2
+
+### Tool Run Terminal Command V2
+
+### Tool Run Terminal Command V2
+
+### Tool Run Terminal Command V2
+
+### Tool Run Terminal Command V2
+
+## Assistant
+
+Renaming `Extractors` to `extractors` so Python can import it on Windows.
+
+### Tool Run Terminal Command V2
+
+### Tool Run Terminal Command V2
+
+## Assistant
+
+Extraction is complete. Verifying company name and a few key fields against the PDF before writing the brief.
+
+### Tool Run Terminal Command V2
+
+### Tool Read File V2
+
+```
+{"path":"C:\\Users\\Andrey\\Downloads\\PDF-Info-extract-v1\\find_rpt_out.json"}
+```
+
+### Tool Get Mcp Tools
+
+```
+{"server":"cursor-app-control","toolName":"rename_chat","toolCallId":"call-834b2de9-4fcd-4365-b675-64249b39b1c0-30\nfc_9b510341-17c2-9aa1-8c23-c1ab7521ba54_0"}
+```
+
+### Tool Mcp
+
+```
+{"name":"cursor-app-control-rename_chat","args":{"title":"VIG AV Oddo brief"},"toolCallId":"call-c7cd39e6-1d50-4bc9-afeb-193d7410478b-31\nfc_7f1f3a60-b7ce-90d8-917a-2de124456588_0","providerIdentifier":"cursor-app-control","toolName":"rename_chat","smartModeApprovalOnly":false,"skipApproval":true,"serverIdentifier":"cursor-app-control"}
+```
+
+## Assistant
+
+# VIG AV — Oddo BHF Corporates & Markets — 28 May 2026
+Q1 first take: strong insurance revenue, modest EBT miss; **Neutral** and **TP €62.0** confirmed, EPS estimates unchanged.
+
+## What changed
+
+No estimate revisions in the note — Oddo keeps EPS unchanged and confirms Neutral / TP €62.0.
+
+| Metric | FY26E | FY27E | FY28E |
+|--------|-------|-------|-------|
+| Adj. EPS (€, Oddo) | 6.98 | 7.47 | 8.25 |
+| Rating | Neutral (confirmed) | — | — |
+| Target price | €62.0 (confirmed) | — | — |
+
+Consensus EPS vs Oddo not stated in the extracted estimate picture. Oddo’s 2026E EBT is €1.25bn vs FactSet €1.28bn (company outlook €1.25–1.30bn, ex-NÜRNBERGER).
+
+## Why it changed, and why now
+
+This is a **Q1 2026 results first take**. Insurance revenue rose 9% y-o-y to €3,425m (ahead of Oddo’s €3,334m); EBT rose 19% to €310m but missed Oddo’s €325m (−5%), which Oddo links to investment-portfolio effects from Middle East market volatility (to be checked on the call). Combined ratio (COR) improved to 91.8% (vs Oddo 92.7%). [Valuation](file:///C:/Users/Andrey/Downloads/PDF-Info-extract-v1/.find-rpt/highlights/20260528_Oddo%20BHF%20Corporates%20%26%20Markets_0704de1259c4cfde1ea35_p1_c2.pdf#page=1)
+
+Management reiterated the 2026 EBT outlook (€1.25–1.30bn ex-NÜRNBERGER). Oddo flags that last year’s NatCat run-rate was light vs history and that weather claims could rise later, especially in Q3; NÜRNBERGER regulatory approvals are in, with consolidated figures only from H2 2026. [Drivers](file:///C:/Users/Andrey/Downloads/PDF-Info-extract-v1/.find-rpt/highlights/20260528_Oddo%20BHF%20Corporates%20%26%20Markets_0704de1259c4cfde1ea35_p1_c1.pdf#page=1)
+
+Context: results review / first take. Management contact: conference call at 15:00 CET (registration required).
+
+---
+**Source:** [20260528_Oddo BHF Corporates & Markets_0704de1259c4cfde1ea35513f63b284d.pdf](file:///C:/Users/Andrey/Downloads/candidate_extracted/corpus/20260528_Oddo%20BHF%20Corporates%20%26%20Markets_0704de1259c4cfde1ea35513f63b284d.pdf#page=1) · **Analyst:** Rok Stibric, CFA · **Company:** Vienna Insurance Group
