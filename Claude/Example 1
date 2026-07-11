@@ -1,0 +1,111 @@
+Chat link - https://claude.ai/share/f0f8915f-bc77-4c63-8451-87c0ae95ec5f
+
+
+Chat output: 
+Working. Let me run the same for the other three companies covered in this note.A quick flag before the briefs: this PDF is a multi-issuer roundup ("Inside Iberia"), and the find-rpt CLI extractor is built for single-issuer notes. The index only picked up two of the four tickers in this file (`FER SM`, `GRE SM`), and even for those two it returned duplicate, wrong data (Grenergy's ticker resolved to Ferrovial's page-2 content — HOLD/TP 52.4, which is Ferrovial's, not Grenergy's BUY/TP 79.0-80.0). `ACX SM` and `ALM SM` returned "no report found" even though both are in the PDF (pages 4-8). So I'm not using the CLI's `extracted` JSON for this document — I've built the four briefs below straight from the PDF text itself, verified section by section, per the skill's "don't invent/don't trust broken extraction" rule.
+
+---
+
+# FER SM - Bestinver Securities - 11 May 2026
+HOLD maintained. 1Q26 call confirms Ferrovial's US toll-road pricing power is holding up even as traffic softens.
+
+## What changed
+No estimate revisions in this note — it's a conference-call takeaways piece, not an estimates update. Rating and TP unchanged.
+
+| | 2025E | 2026E |
+|---|---|---|
+| PE (x) | 52.6 | 66.7 |
+| EV/EBITDA (x) | 26.0 | 24.2 |
+| FCF Yield (%) | (1.3) | 3.0 |
+| Net debt/EBITDA (x) | 4.3 | 3.7 |
+
+Rating: **HOLD**, TP €52.4–56.9 (last price €59.82).
+
+## Why it changed, and why now
+Management framed the quarter as pricing power offsetting soft volumes: US managed-lane revenue-per-transaction growth came from tech-enabled vehicle identification/pricing and higher mandatory-mode usage, while weather and construction hurt traffic, especially at NTE (p.2). Gasoline-price sensitivity at 407 ETR is being watched but not yet quantified — March traffic there grew only +1.1% YoY (p.2). 407 ETR's dividend hike was framed as an operating-strength signal, though leverage is now above 2x and no further-year guidance was given (p.2).
+
+Growth pipeline: managed-lane bid decisions expected in Tennessee (late August) and Georgia (mid-October) (p.2). No penalties are expected on JFK New Terminal One construction delays, and any dividend-policy update is now pushed to early 2027 (p.2). Bestinver's take: the highways business's pricing momentum should continue, but sustained fuel-price rises are the risk to monitor (p.2).
+
+---
+**Source:** [20260511_Bestinver_Securities_...pdf](file:///home/claude/PDF-Info-extract-v1/corpus/20260511_Bestinver_Securities_ab35d21bd99914172a509ab768ccfbe9.pdf), p.2 · **Analyst:** Álvaro Navarro · **Company:** Ferrovial
+
+---
+
+# GRE SM - Bestinver Securities - 11 May 2026
+BUY maintained. Grenergy closes non-recourse financing for its Chilean Oasis platform Phase 4 — a milestone, not a numbers change.
+
+## What changed
+No revisions — this is a financing-announcement note. Rating and TP unchanged pending the 1Q26 results/strategic-plan update on 27 May.
+
+| | 2025E | 2026E |
+|---|---|---|
+| PE (x) | 41.5 | 73.8 |
+| EV/EBITDA (x) | 26.3 | 27.4 |
+| FCF Yield (%) | (22.9) | (23.6) |
+| Net debt/EBITDA (x) | 7.7 | 10.8 |
+
+Rating: **BUY**, TP €79.0–80.0 (last price €120.60).
+
+## Why it changed, and why now
+Grenergy signed a US$268m non-recourse senior financing (BNP Paribas as lead arranger, plus KfW IPEX-Bank, Rabobank, Natixis and Bank of Nova Scotia), including US$25m in credit lines, tied to Phase 4 "Monte Águila" of the Central Oasis platform in Chile — 342MW solar plus 1,034MWh storage, part of a 1.1GW/4GWh total platform with a 12-year, 280GWh/year PPA (p.3). Monte Águila is expected online in 1Q27; with this deal, Grenergy has now closed roughly US$2bn of financing across Oasis de Atacama and Central Chile (p.3).
+
+Bestinver reads this as confirmation the project can generate cash flow, calling it a "major milestone" (p.3), and is holding estimates/valuation until after the 27 May 1Q26 results and strategic-plan presentation (p.3).
+
+---
+**Source:** [20260511_Bestinver_Securities_...pdf](file:///home/claude/PDF-Info-extract-v1/corpus/20260511_Bestinver_Securities_ab35d21bd99914172a509ab768ccfbe9.pdf), p.3 · **Analyst:** Daniel Rodríguez · **Company:** Grenergy Renovables
+
+---
+
+# ACX SM - Bestinver Securities - 11 May 2026
+Rating **UNDER REVIEW**. 1Q26 EBITDA landed just below consensus on a sharp HPA contraction, but Acerinox guides to a QoQ improvement in 2Q26E.
+
+## What changed
+1Q26E vs. internal consensus (€m):
+
+| Metric | 1Q26 | 1Q26E Consensus | 4Q25 (QoQ) |
+|---|---|---|---|
+| Sales | 1,384 | 1,547 | +6% |
+| EBITDA | 95 | 110 | +192% |
+| EBIT | 45 | 60 | n/a |
+| Net Profit | 5 | 29 | n/a |
+| Net Debt | 1,295 | 1,282 | +9% |
+
+EBITDA came in below the €110m internal consensus, though sharply up QoQ from €32m in 4Q25 (p.4-5).
+
+## Why it changed, and why now
+Sales rose 6% QoQ to €1.38bn on a price recovery and +22% QoQ melting-shop volumes, despite weaker apparent demand (-11% US, -7% Europe) that was offset by lower imports under new regulation (p.4). Stainless EBITDA improved as expected on higher prices, but the negative surprise was HPAs, where EBITDA fell 60% QoQ on O&G/chemical-processing weakness tied to geopolitical instability (p.4); EBITDA also included a €25m inventory adjustment, split roughly €15m from European stainless pass-through lag and €10m from HPA/O&G exposure (p.6). Net debt rose €106m QoQ on working-capital outflow, dividends and capex (p.4).
+
+For 2Q26E, management guides to higher EBITDA QoQ on better order books and lower imports, and expects only a limited Iran-war impact (c.-€2m on March EBITDA), citing its energy-hedging strategy (p.4). On the call, management also confirmed it's exploring a potential US listing/IPO while retaining a controlling stake, with no final decision yet; Europe is targeted to reach break-even in 3Q26E (not 2Q26E), and capacity utilisation currently stands at ~80% US / ~70% Europe / ~60-65% South Africa (p.6).
+
+---
+**Source:** [20260511_Bestinver_Securities_...pdf](file:///home/claude/PDF-Info-extract-v1/corpus/20260511_Bestinver_Securities_ab35d21bd99914172a509ab768ccfbe9.pdf), p.4-6 · **Analyst:** Research Team (research.securities@bestinver.es) · **Company:** Acerinox
+
+---
+
+# ALM SM - Bestinver Securities - 11 May 2026
+HOLD maintained (Bestinver's text flags upside to BUY). 1Q26 EBITDA beat on cost control; guidance reaffirmed.
+
+## What changed
+1Q26 reported vs. Bestinver Securities vs. consensus (€m):
+
+| Metric | Reported (YoY) | Bestinver 1Q26E | Diff. | Consensus 1Q26E | Diff. |
+|---|---|---|---|---|---|
+| Net sales | 291 (+2%) | 293 | -1% | 293 | -1% |
+| EBITDA | 68 (-5%) | 66 | +2% | 67 | +1% |
+| EBIT | 30 (-12%) | 29 | +5% | 29 | +2% |
+| Net Profit | 15 (-29%) | 18 | -14% | 19 | -20% |
+| EBITDA margin | 23.2% (-172bps) | 22.7% | — | 22.7% | — |
+
+EBITDA beat both Bestinver's and consensus's estimates; net profit missed both (p.7-8).
+
+## Why it changed, and why now
+The YoY sales comparison is distorted by a €12m one-off in 1Q25 (Algidol divestment/Sekisan out-licensing); excluding that, sales grew +7% (p.7). Growth was driven by Ebglyss (2x YoY to €42m), Ilumetri (+12%), Wynzora (+21%) and Klisyri (+7%) (p.7). Gross margin eroded 274bps YoY (129bps like-for-like) on higher Ilumetri royalty tiers, but the EBITDA beat came from R&D and SG&A costs moderating annually — margin was 159bps better than 1Q26 margin ex one-offs (p.7). Net debt swung to €26.2m (from €2m net cash) on higher capex and seasonal working capital (p.7).
+
+Almirall reaffirmed 2026E guidance: sales growth +9-12%, EBITDA €270-290m (Bestinver's €283m and consensus's €281m both sit inside that range), R&D at 12.5% of sales, and a gradually declining tax rate toward the mid-20s; longer term, a 25% EBITDA margin by 2028 (p.7). Bestinver's framing: the "Biotech-lite" shift is accelerating (+18% EBITDA CAGR projected through 2028), and following the recent share-price correction the analyst view is that upside justifies a BUY rating, with the 4Q26 IL-2 Phase II atopic-dermatitis readout as the next catalyst — note the rating box itself still shows HOLD (p.7).
+
+---
+**Source:** [20260511_Bestinver_Securities_...pdf](file:///home/claude/PDF-Info-extract-v1/corpus/20260511_Bestinver_Securities_ab35d21bd99914172a509ab768ccfbe9.pdf), p.7-8 · **Analyst:** Patricia Cifuentes · **Company:** Almirall
+
+---
+
+No analyst email draft offered — in all four sections the rationale for the numbers is stated directly in the note, so the skill's ambiguity gate for an email escalation isn't met.
