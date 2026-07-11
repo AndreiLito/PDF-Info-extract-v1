@@ -1,0 +1,3 @@
+# Machine-local only (gitignored). Do not commit.
+# Prefer FIND_RPT_CORPUS env var when sharing / uploading to Claude.
+corpus_path: "C:/Users/Andrey/Downloads/candidate_extracted/corpus"
