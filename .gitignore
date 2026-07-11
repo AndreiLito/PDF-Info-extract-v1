@@ -1,0 +1,11 @@
+.find-rpt/
+_analysis/
+corpus/
+*.pdf
+.env
+config/local.yaml
+__pycache__/
+*.pyc
+.venv/
+venv/
+scripts/_*.py
