@@ -1,7 +1,7 @@
 # extractors/
 
 Broker-specific PDF parsers for `/find-rpt`  
-(repo: https://github.com/AndreiLito/PDF-Info-extract).
+
 
 Extraction is **Python code per broker** (or shared `nordic_eu` / `generic`). There is **one** agent brief template in the skill — not one template file per broker.
 
