@@ -153,4 +153,4 @@ See also `scripts/README.md`, `scripts/extractors/README.md`, `config/README.md`
 
 ## Confidentiality
 
-Research PDFs are confidential — keep them local (`FIND_RPT_CORPUS` / `config/local.yaml`). This repo contains tooling and skills only (no corpus).
+Research PDFs are confidential — kept local (`FIND_RPT_CORPUS` / `config/local.yaml`). This repo contains tooling and skills only (no corpus).
